@@ -3,41 +3,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_Profil">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:id="@+id/nav_Profil"
+        android:name="com.example.myapplication.ui.profil.ProfilFragment"
         android:label="@string/menu_Profil"
         tools:layout="@layout/fragment_profil" />
-
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.myapplication.ui.profil.ProfilFragment"
-        android:label="@string/menu_Evaluer_un_trajet"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_Statistiques"
-        tools:layout="@layout/fragment_slideshow" />
-
-    <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.example.myapplication.ui.tools.ToolsFragment"
+        android:id="@+id/nav_Ajouter_un_trajet"
+        android:name="com.example.myapplication.ui.ajouterUnTrajet.AjouterUnTrajetFragment"
         android:label="@string/menu_Ajouter_un_trajet"
-        tools:layout="@layout/fragment_tools" />
-
+        tools:layout="@layout/fragment_ajouter_un_trajet" />
     <fragment
-        android:id="@+id/nav_share"
-        android:name="com.example.myapplication.ui.share.ShareFragment"
-        android:label="@string/menu_Quitter"
-        tools:layout="@layout/fragment_share" />
-
-    <fragment
-        android:id="@+id/nav_send"
-        android:name="com.example.myapplication.ui.send.SendFragment"
+        android:id="@+id/nav_Chercher_un_trajet"
+        android:name="com.example.myapplication.ui.chercherUnTrajet.ChercherUnTrajetFragment"
         android:label="@string/menu_Chercher_un_trajet"
-        tools:layout="@layout/fragment_send" />
+        tools:layout="@layout/fragment_chercher_un_trajet" />
+    <fragment
+        android:id="@+id/nav_Evaluer_un_trajet"
+        android:name="com.example.myapplication.ui.evaluerUnTrajet.EvaluerUnTrajetFragment"
+        android:label="@string/menu_Evaluer_un_trajet"
+        tools:layout="@layout/fragment_evaluer_un_trajet" />
+    <fragment
+        android:id="@+id/nav_Mes_trajets"
+        android:name="com.example.myapplication.ui.mesTrajets.MesTrajetsFragment"
+        android:label="@string/menu_Mes_trajets"
+        tools:layout="@layout/fragment_mes_trajet" />
+    <fragment
+        android:id="@+id/nav_Statistiques"
+        android:name="com.example.myapplication.ui.statistiques.StatistiquesFragment"
+        android:label="@string/menu_Statistiques"
+        tools:layout="@layout/fragmenet_statistique" />
 </navigation>

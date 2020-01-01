@@ -1,19 +1,20 @@
-package com.example.myapplication.ui.tools;
+package com.example.myapplication.ui.evaluerUnTrajet;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class ToolsViewModel extends ViewModel {
+public class EvaluerUnTrajetViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public ToolsViewModel() {
+    public EvaluerUnTrajetViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is tools fragment");
+        mText.setValue("This is Evaluation fragment");
     }
 
     public LiveData<String> getText() {
         return mText;
     }
 }
+

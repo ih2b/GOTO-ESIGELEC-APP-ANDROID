@@ -1,16 +1,16 @@
-package com.example.myapplication.ui.share;
+package com.example.myapplication.ui.profil;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class ShareViewModel extends ViewModel {
+public class ProfilViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public ShareViewModel() {
+    public ProfilViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is share fragment");
+        mText.setValue("This is profil fragment");
     }
 
     public LiveData<String> getText() {

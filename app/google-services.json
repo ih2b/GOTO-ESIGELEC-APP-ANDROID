@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "186780559782",
+    "firebase_url": "https://gotoesig-19c8d.firebaseio.com",
+    "project_id": "gotoesig-19c8d",
+    "storage_bucket": "gotoesig-19c8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186780559782:android:1a192c014af7473daa0767",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186780559782-0s1qssgtmg8vikvi0ltvq66uj5vm41fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH-xsgJPix-6b6NDIdB-KThTQaR1XQ3QA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186780559782-0s1qssgtmg8vikvi0ltvq66uj5vm41fs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
