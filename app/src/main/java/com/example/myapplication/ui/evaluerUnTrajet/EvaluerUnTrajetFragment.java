@@ -23,13 +23,7 @@ public class EvaluerUnTrajetFragment extends Fragment {
         evaluerUnTrajetViewModel =
                 ViewModelProviders.of(this).get(EvaluerUnTrajetViewModel.class);
         View root = inflater.inflate(R.layout.fragment_evaluer_un_trajet , container, false);
-        final TextView textView = root.findViewById(R.id.text_evaluer);
-        evaluerUnTrajetViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+
         return root;
     }
 }
